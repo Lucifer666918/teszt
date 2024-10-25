@@ -1,0 +1,36 @@
+body{
+    width: 80%;
+    
+}
+table{
+    border: 5px solid red;
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+}
+tr{
+    border: 5px solid white;
+}
+td,th{
+    border: 5px solid green;
+    padding: 10px;
+    
+}
+/* megjegyzes */
+.zaszlo{
+    border:none;
+}
+.piros{
+background-color: red;
+}
+.feher{
+background-color: white;
+
+}
+.zold{
+    background-color: green;
+}
+.piros,.feher,.zold {
+    height: 30px;;
+    border: none
+}

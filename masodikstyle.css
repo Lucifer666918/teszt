@@ -1,0 +1,18 @@
+h2{
+    color:skyblue;
+}
+a:link{
+    color:pink
+}
+a:visited{
+    color:burlywood
+}
+a:active{
+    color:deepskyblue;
+    font-size: large;
+}
+img{
+    width: 500px;
+    height: 350px;
+
+}

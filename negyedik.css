@@ -1,0 +1,89 @@
+body{
+    background-color: antiquewhite;
+}
+.doboz{
+    background-color: aqua;
+}
+.doboz2{
+    background-color: burlywood;
+}
+.doboz p{
+    text-align: justify;
+}
+.doboz,.doboz2{
+    width: 475px;
+    border: 2px solid red;
+    float:left;
+}
+.main{
+    background-color: cadetblue;
+    width: 1000px;
+    margin:auto;
+    padding:25px;
+    box-shadow: 10px 10px lightblue;
+}
+/* Ez a lezaras kell, ha FLOAT beallitast hasznalok */
+.lezaro{
+    clear:both;
+}
+.bal-margo{
+    margin-left:12.5px;
+}
+.jobb-margo{
+    margin-right:12.5px;
+}
+.tegla,.kor{
+    border:2px solid red;
+    background-color: red;
+}
+.tegla{
+    width: 900px;
+    height: 400px;
+    padding-top:190px;
+}
+.kor{
+    height:200px;
+    width: 200px;
+    margin:0 auto;
+    border-radius: 50%;
+}
+.star {
+    position: relative;
+    
+    display: inline-block;
+    width: 0;
+    height: 0;
+    
+    margin-left: .9em;
+    margin-right: .9em;
+    margin-bottom: 1.2em;
+    
+    border-right:  .3em solid transparent;
+    border-bottom: .7em  solid #FC0;
+    border-left:   .3em solid transparent;
+  
+    /* Controlls the size of the stars. */
+    font-size: 24px;
+    
+    &:before, &:after {
+      content: '';
+      
+      display: block;
+      width: 0;
+      height: 0;
+      
+      position: absolute;
+      top: .6em;
+      left: -1em;
+    
+      border-right:  1em solid transparent;
+      border-bottom: .7em  solid #FC0;
+      border-left:   1em solid transparent;
+    
+      transform: rotate(-35deg);
+    }
+    
+    &:after {  
+      transform: rotate(35deg);
+    }
+  }
