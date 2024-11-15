@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kapcsolat - Streetfood Étkezde</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigáció -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Streetfood</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="file:///Z:/www/streetfood.html" target="_blank">Főoldal</a></li>
+                <li><a href="file:///Z:/www/streetfood2.html" target="_blank">Menü</a></li>
+                <li><a href="file:///Z:/www/streetfood3.htm l" target="_blank">Kapcsolat</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Kapcsolati szekció -->
+    <section id="contact" class="contact-section">
+        <div class="contact-info">
+            <h2>Kapcsolatfelvétel</h2>
+            <p>Ha kérdéseid vannak vagy szeretnéd megrendelni az ételt, lépj kapcsolatba velünk!</p>
+            <div class="contact-details">
+                <h3>Cím:</h3>
+                <p>1234 Budapest, Fő utca 56.</p>
+                <h3>Telefon:</h3>
+                <p>+36 30 123 4567</p>
+                <h3>E-mail:</h3>
+                <p>info@streetfood.hu</p>
+            </div>
+        </div>
+
+        <!-- Kapcsolati űrlap -->
+        <div class="contact-form">
+            <h3>Írj nekünk!</h3>
+            <form action="submit_contact_form.php" method="POST">
+                <label for="name">Név:</label>
+                <input type="text" id="name" name="name" placeholder="Név" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="E-mail cím" required>
+
+                <label for="message">Üzenet:</label>
+                <textarea id="message" name="message" placeholder="Írd meg üzeneted" required></textarea>
+
+                <button type="submit">Elküld</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Térkép -->
+    <section id="map">
+        <h2>Találj meg minket</h2>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed/v1/place?key=YOUR_GOOGLE_MAPS_API_KEY&q=Fő+utca+56,+Budapest" 
+                    width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+    </section>
+
+    <!-- Lábléc -->
+    <footer>
+        <p>&copy; 2024 Streetfood Étkezde | Minden jog fenntartva</p>
+    </footer>
+</body>
+</html>

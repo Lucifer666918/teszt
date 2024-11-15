@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Streetfood Menük és Italok</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #ff0000;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+        }
+
+        nav {
+            text-align: right;
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            background-color: #575757;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        h2 {
+            color: #ff0000;
+        }
+
+        .menu-section, .drink-section {
+            margin-bottom: 30px;
+        }
+
+        .menu-item, .drink-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .menu-item:last-child, .drink-item:last-child {
+            border-bottom: none;
+        }
+
+        .price {
+            color: #ff0000;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Streetfood Étkezde</h1>
+    <p>Friss, finom és gyors étkezés minden nap!</p>
+</header>
+
+<nav>
+    <a href="file:///Z:/www/streetfood.html" target="_blank">Főoldal</a>
+    <a href="file:///Z:/www/streetfood2.html" target="_blank">Menük és Italok</a>
+    <a href="file:///Z:/www/streetfood3.html" target="_blank">Kapcsolat</a>
+</nav>
+
+<div class="container">
+    <section class="menu-section">
+        <h2>Menüajánlatok</h2>
+        <div class="menu-item">
+            <span>Hamburger (hússal)</span>
+            <span class="price">1200 Ft</span>
+        </div>
+        <div class="menu-item">
+            <span>Vegán Burger</span>
+            <span class="price">1300 Ft</span>
+        </div>
+        <div class="menu-item">
+            <span>Wrap (csirkével)</span>
+            <span class="price">1100 Ft</span>
+        </div>
+        <div class="menu-item">
+            <span>Wrap (zöldségekkel)</span>
+            <span class="price">1200 Ft</span>
+        </div>
+        <div class="menu-item">
+            <span>Kebap tál</span>
+            <span class="price">1400 Ft</span>
+        </div>
+    </section>
+
+    <section class="drink-section">
+        <h2>Italok</h2>
+        <div class="drink-item">
+            <span>Kóla</span>
+            <span class="price">400 Ft</span>
+        </div>
+        <div class="drink-item">
+            <span>Ásványvíz</span>
+            <span class="price">300 Ft</span>
+        </div>
+        <div class="drink-item">
+            <span>Frissítő (narancs, alma)</span>
+            <span class="price">500 Ft</span>
+        </div>
+        <div class="drink-item">
+            <span>Beer (Pilsner)</span>
+            <span class="price">600 Ft</span>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Streetfood Étkezde | Minden jog fenntartva</p>
+</footer>
+
+</body>
+</html>
